@@ -446,6 +446,7 @@ class DrawerLegacyDemoController: DemoController {
         for view in actionViews(drawerHasFlexibleHeight: drawerHasFlexibleHeight, drawerHasToggleResizingBehaviorButton: drawerHasToggleResizingBehaviorButton) {
             container.addArrangedSubview(view)
         }
+
         return container
     }
 
